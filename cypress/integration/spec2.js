@@ -1,10 +1,10 @@
 /// <reference types="cypress" />
-it('loads 3 elements', () => {
+it('3 commands', () => {
   cy.visit('index.html')
-  cy.get('#app div')
-    .should(($div) => {
-      expect($div.eq(0)).to.contain('first child')
-      expect($div.eq(1)).to.contain('second child')
-      expect($div.eq(2)).to.contain('third child')
-    })
+  cy.get('#app div:nth(0)')
+    .should('contain', 'first child')
+  cy.get('#app div:nth(1)')
+    .should('contain', 'second child')
+  cy.get('#app div:nth(2)')
+    .should('contain', 'third child')
 })
