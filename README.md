@@ -1,4 +1,4 @@
-# cypress-should-callback
+# cypress-should-callback [![CircleCI](https://circleci.com/gh/bahmutov/cypress-should-callback.svg?style=svg)](https://circleci.com/gh/bahmutov/cypress-should-callback)
 
 > Example running multiple assertions from cypress `should(cb)` function
 
