@@ -11,7 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "3.8.3",
-    "cypress-pipe": "1.6.2",
+    "cypress-pipe": "1.6.4",
     "ramda": "0.27.0"
   }
 }
