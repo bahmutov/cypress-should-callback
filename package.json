@@ -12,6 +12,6 @@
   "devDependencies": {
     "cypress": "3.8.3",
     "cypress-pipe": "1.7.0",
-    "ramda": "0.27.2"
+    "ramda": "0.28.0"
   }
 }
