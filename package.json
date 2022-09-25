@@ -10,7 +10,7 @@
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com> (https://glebbahmutov.com/)",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "3.8.3",
+    "cypress": "10.8.0",
     "cypress-pipe": "1.7.0",
     "ramda": "0.28.0"
   }
